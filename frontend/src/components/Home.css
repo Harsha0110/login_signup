@@ -1,0 +1,50 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container with margin */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: #ffffff; /* White background for the container */
+    text-align: center; /* Center the text */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+h2 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #007bff; /* Blue color for the heading */
+}
+
+p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    margin-top: 10px; /* Space above the paragraph */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; /* Less padding on smaller screens */
+        margin: 20px; /* Less margin on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller font size for the heading */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size for the paragraph */
+    }
+}
